@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358026589434",
+    "project_id": "the-rock-collecting",
+    "storage_bucket": "the-rock-collecting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358026589434:android:651dabd4ff8ff68a540543",
+        "android_client_info": {
+          "package_name": "za.co.rosebankcollege.st10105402.therockcollecting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358026589434-hnirda24k2sa50n7f03mosu02ej5f72r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqSk39nQ9h7O3Trj-nLFDqbdVAFReZhWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358026589434-hnirda24k2sa50n7f03mosu02ej5f72r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
