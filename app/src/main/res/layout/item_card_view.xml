@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="216dp"
+            android:layout_height="177dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/mStoneName"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Stone Name"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mPurchaseDate"
+                android:layout_width="163dp"
+                android:layout_height="36dp"
+                android:layout_margin="6dp"
+                android:text="Purchase Date"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mStoneDetails"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_margin="6dp"
+                android:text="Stone Details"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mStoneCategory"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_margin="6dp"
+                android:text="Stone Category"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+  
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,28 @@
+<!-- activity_page_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="138dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/paragraphTextView"
+        android:layout_width="268dp"
+        android:layout_height="423dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="62dp"
+        android:padding="8dp"
+        android:text="The Rock (Version 2) is a mobile application developed by Group 16 in 2023. It is a user-friendly app designed for diamond collectors to manage and showcase their valuable collections. Built using Kotlin and Android Studio, The Rock utilizes Firebase Storage for storing diamond images and Firebase Database for efficient data management. With features such as adding new diamonds, uploading images, and organizing the collection, the app simplifies the process of managing and showcasing diamond collections. It offers a seamless experience across devices, allowing users to access their collections from anywhere.
+"
+        android:textSize="16sp" />
+
+</RelativeLayout>

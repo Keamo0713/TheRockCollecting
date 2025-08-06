@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TheRockCollecting</string>
+    <string name="app_name2">TheRock</string>
+    <string name="app_email">Email</string>
+    <string name="app_password">Password</string>
+    <string name="app_register">Register</string>
+
+    <string name="app_personName">Name</string>
+    <string name="sell" />
+    <string name="view_by_category" />
+    <string name="add_item" />
+    <string name="view_target_amount" />
+    <string name="change_password" />
+    <string name="update_profile" />
+    <string name="view_all_items" />
+    <string name="spinner_category_label">Category</string>
+
+
+</resources>

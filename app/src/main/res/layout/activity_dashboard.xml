@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iconImageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="91dp"
+        android:contentDescription="@string/sell"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_sell" />
+
+    <TextView
+        android:id="@+id/sellItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="94dp"
+        android:paddingTop="8dp"
+        android:text="Sell stone"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView6"
+        android:layout_width="77dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="254dp"
+        android:contentDescription="@string/view_by_category"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_view_by_category" />
+
+    <TextView
+        android:id="@+id/viewCategoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="235dp"
+        android:paddingTop="8dp"
+        android:text="View by Category"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="94dp"
+        android:contentDescription="@string/view_all_items"
+        android:src="@drawable/ic_view_all_items" />
+
+    <TextView
+        android:id="@+id/wishlistItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="103dp"
+        android:paddingTop="8dp"
+        android:text="Wishlist"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/viewItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="99dp"
+        android:paddingTop="8dp"
+        android:text="View Stone"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="91dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_wishlist" />
+
+    <ImageView
+        android:id="@+id/iconImageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="254dp"
+        android:contentDescription="@string/add_item"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_add_item" />
+
+    <TextView
+        android:id="@+id/addItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="264dp"
+        android:paddingTop="8dp"
+        android:text="Add Item"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="258dp"
+        android:contentDescription="@string/view_target_amount"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_target_amount" />
+
+    <TextView
+        android:id="@+id/targetItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="279dp"
+        android:paddingTop="8dp"
+        android:text="Target"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="83dp"
+        android:contentDescription="@string/change_password"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_info" />
+
+    <TextView
+        android:id="@+id/changePasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="97dp"
+        android:paddingTop="8dp"
+        android:text="App Info"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iconImageView9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="255dp"
+        android:contentDescription="@string/update_profile"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_update_profile" />
+
+    <TextView
+        android:id="@+id/updateProfileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="247dp"
+        android:paddingTop="8dp"
+        android:text="Update Profile"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconImageView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp"
+        android:textSize="14sp"
+        />
+
+
+</RelativeLayout>
