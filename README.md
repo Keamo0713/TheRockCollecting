@@ -1,12 +1,12 @@
-Diamond Collector
-An Android application built with Kotlin for users to collect, manage, and trade virtual diamonds, while earning achievements and competing for a top rank.
+The Rock Collecting
+An Android application built with Kotlin for users to collect, manage, and trade virtual rocks, while earning achievements and competing for a top rank.
 
 💎 Features
 User Authentication: Secure user registration and login functionality.
 
-Diamond Collection: Users can load and view their personal collection of virtual diamonds.
+Rock Collection: Users can load and view their personal collection of virtual rocks.
 
-Marketplace: Buy and sell diamonds within the app's economy.
+Marketplace: Buy and sell rocks within the app's economy.
 
 Goals & Achievements: Set personal goals and unlock achievements as you progress.
 
@@ -32,7 +32,7 @@ A physical device or an Android emulator to run the app.
 Installation
 Clone the repository:
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Keamo0713/TheRockCollecting.git
 
 Open the project in Android Studio.
 
@@ -55,6 +55,6 @@ Open a Pull Request.
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 📞 Contact
-Project Link: https://github.com/your-username/your-repository
+Project Link: https://github.com/Keamo0713/TheRockCollecting
 
 Your Name: [Your Name or Email]
